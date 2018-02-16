@@ -1,0 +1,17 @@
+{
+  "name": "docker_client",
+  "version": "1.0.0",
+  "description": "docker client",
+  "main": "client.js",
+  "scripts": {
+    "start": "node client.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "json-socket": "*",
+    "simple-node-logger":"^0.93.37",
+    "net":"^1.0.2",
+    "request":"^2.83.0"
+  },
+  "author": "Devashish"
+}
